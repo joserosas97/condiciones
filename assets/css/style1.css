@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 20rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    background-color: yellow;
+    font-size: 1.2rem;
+}

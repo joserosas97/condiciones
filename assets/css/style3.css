@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+div {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+select {
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    color: black;
+    background-color: #dedede;
+    border-radius: 6px;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    background-color: yellow;
+    font-size: 1.2rem;
+}
